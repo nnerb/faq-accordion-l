@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Work Sans', sans-serif;
+    src: url("/faq/faq-accordion/public/fonts/WorkSans-Regular.ttf")
+}
+
+.transition-max-height {
+    transition-property: max-height;
+    transition-timing-function: ease-in-out;
+  }
+
